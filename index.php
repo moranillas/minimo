@@ -1,0 +1,9 @@
+<?php
+
+        require_once 'maximo.php';
+        $max = maximo([1,7,3,4,-1,1000]);
+        echo"<center>";
+				echo "<h1>NUMERO MAXIMO=$max</h1>";
+        echo"</center>";
+
+?>
